@@ -1,0 +1,47 @@
+{
+    "AppConf" : {
+        "ID" : 21001,
+        "Group" : "Game"
+    },
+    "HttpConf" : {
+        "Flag" : 0,
+        "Type" : "http",
+        "Host" : "0.0.0.0",
+        "Port" : 21001
+    },
+    "HttpsConf" : {
+        "Flag" : 0,
+        "Type" : "https",
+        "Host" : "0.0.0.0",
+        "Port" : 21002
+    },
+    "WSConf" : {
+        "Flag" : 1,
+        "Type" : "ws",
+        "Host" : "0.0.0.0",
+        "Port" : 21001
+    },
+    "TCPConf" : {
+        "Flag" : 0,
+        "Type" : "tcp",
+        "Host" : "0.0.0.0",
+        "Port" : 0,
+        "Max" : 0
+    },
+    "RedisConfRemote" : {
+        "Flag" : 1,
+        "Type" : "tcp",
+        "Host" : "0.0.0.0",
+        "Port" : 10501,
+        "Database" : 0,
+        "Password" : ""
+    },
+    "RedisConfLocal" : {
+        "Flag" : 1,
+        "Type" : "tcp",
+        "Host" : "0.0.0.0",
+        "Port" : 10501,
+        "Database" : 2,
+        "Password" : ""
+    }
+}
